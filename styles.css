@@ -17,6 +17,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: monospace;
+  color: #2d3748
 }
 
 /* CSS for navigation */
@@ -36,7 +37,7 @@ body {
 
   background-color: var(--cg-black);
   color: var(--cg-white);
-  padding: 0px 0px;
+  padding: 0px 20px;
 
   /* Debug border */
   /* border: solid red; */
@@ -100,7 +101,10 @@ main {
 .project {
   display: flex;
   flex-direction: row;
-  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+  max-width: 1000px;
+  width: 100%;
   margin: 1em 0 2em 0;
 
   /* Debug border */
